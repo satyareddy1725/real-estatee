@@ -1,0 +1,38 @@
+.Navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+.Navbar-left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.Navbar-center{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    list-style-type: none;
+    gap: 15px;
+}
+.Navbar-right button{
+    border: none;
+    border-radius: 10px;
+    background-color: skyblue;
+    color: white;
+    width: 80px;
+    height: 30px;
+}
+
+/* @media only screen and (min-width:"870px-10px"){
+    .Navbar h6,.Navbar-center,.Navbar-right 
+    {
+        display:none;
+        
+    }
+    .Navbar-left img{
+        margin-right: 300px;
+    }
+
+} */
